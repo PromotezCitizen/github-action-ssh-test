@@ -22,5 +22,6 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           timeout: 10m
           script: | 
-            cat /home/pi/명령어
+            pwd
             echo ${{ steps.now.outputs.now }}
+            
